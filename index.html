@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="utf-8" />
+		<title>Ťapka</title>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Itim" rel="stylesheet">  
+		<link rel="stylesheet" type="text/css" href="FIS_Tapka_QZ.css">
+		<link rel="shortcut icon" href="images/logo.png" type="image/png">
+	</head>
+	
+	<body>
+		<header id="home">
+			<div class="header-container">
+				<div class="logo">
+					<img src="images/logo.png" alt="logo">
+				</div>
+				<input type="checkbox" id="menu-checkbox">
+				<nav role="navigation" class="uppercase">
+					<label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close"></label>
+					<ul class="main-menu">
+						<li><a href="#top">Domu</a></li>
+      				<li><a href="#description">Popis</a></li>
+      				<li><a href="#project">Projekt</a></li>
+      				<li><a href="#decoration">Ozdoba</a></li>
+      				<li><a href="#sponsors">Partneři</a></li>
+      				<li><a href="#contact">Kontakt</a></li>
+    				</ul>
+    			</nav>
+			</div>
+        </header>
+        
+        <main>
+        	<section class="top-slide" id="top">
+        		<div class="top-container">
+        			<div><h2 class="top-decor">Ťapka</h2></div>
+        			<div><h4 class="top-decor">Nezisková organizace</h4></div>
+        			<div><p>pomoc zvířátkům</p></div>
+        			<div><p>V ÚTULKÁCH</p></div>
+        			<div><p>Fousek a Petronella</p></div>
+        		</div>
+        		<div class="slider">
+        			<a href="#home">&Lambda;</a> <!--&uarr;-->
+        		</div>
+        	</section>
+        	
+        	<section class="popis">
+        			<div class="popis-container" id="description">
+        				<h3>Kdo jsme?</h3> 
+        				<p>Jsme malá nezisková organizace, která se snaží pomáhat 
+        				útulkům a různým organizacím, kteří se starají o nemocná zvířátka 
+        				nebo zvířátka bez domova. V rámci každého roku se snažíme pomáhat 
+        				vybraným útulkům či organizacím prostřednictvím webového prodeje 
+        				výrobků a čistý výdělek putuje na pomoc zvířátkům.</p>
+        			</div>
+         </section>
+         
+         <section class="aktualni" id="project">
+         	<div class="aktualni-container">
+         		<h3>Náš aktuální projekt</h3>
+         		<p>V letošním projektu jsme se zaměřili na pomoc útulkům <b>Fousek</b> a <b>Petronella</b>, 
+         		které využijí peníze na chod útulku a pomoc koček.<br>
+         		V rámci tohoto projektu jsme se rozhodli vytvořit pro útulek Petronella návrh na dotaci 
+         		 a útulku Fousek pak darovat čistý výdělek z prodeje vánočních ozdob, vytvořených právě pro tento projekt. <br>
+         		 Hlavní prodej se bude konat v předvánočním období, proto jsme navrhli jednoduchou vánoční ozdobu, 
+         		 která má mít spíše symbolický význam, nesoucí se v duchu Vánoc.<br><br>
+         		 Součástí produktu je také mobilní aplikace, která slouží k ovládání celé ozdoby. <br><br>
+         		 <i>Zmáčknutím obrázku můžete stáhnout aplikaci</i> <a href="images/Tapka_Decoration.apk" title="download an app" download>
+         		 <img src="images/logo.png" alt="app" width="75" height="75"></a></p>
+         	</div>
+         </section>
+         
+         <section class="ozdoby" id="decoration">
+         	<div class="podekovani" id="dekuji">
+         		<button id="closetButton" onclick="winCloset();"><b style="color:#fff;">x</b></button><br>
+         		<h6>Děkuji, že jste přispěli &hearts;</h6>
+         	</div>
+         	<div class="ozdoby-container">
+         		<h3>Naše nabídka</h3>
+         		<p>Tady Vám nabízíme různé varianty ozdoby</p>
+         		<div class="ozdoba-varianty">
+         			<div class="ozdoba">
+         				<div class="top-ozdoba">
+         					<img src="images/ozdoba.jpg" alt="Xmas-decoration">
+         				</div>
+         				<div class="bottom-ozdoba">
+         					<p class="first-p">Barva: Vánoční motiv <br> Cena: 600 Kč</p>
+         					<div class="koupit"><button onclick="Podekovani()">Koupit</button></div>
+         				</div>
+         				
+         			</div>
+         			
+         			<div class="ozdoba">
+         				<div class="top-ozdoba">
+         					<img src="images/ozdoba.jpg" alt="Xmas-decoration">
+         				</div>
+         				<div class="bottom-ozdoba">
+         					<p class="first-p">Barva: Vánoční motiv <br> Cena: 600 Kč</p>
+         					<div class="koupit"><button onclick="Podekovani()">Koupit</button></div>
+         				</div>
+         			</div>
+         			
+         			<div class="ozdoba">
+         				<div class="top-ozdoba">
+         					<img src="images/ozdoba.jpg" alt="Xmas-decoration">
+         				</div>
+         				<div class="bottom-ozdoba">
+         					<p class="first-p">Barva: Vánoční motiv <br> Cena: 600 Kč</p>
+         					<div class="koupit"><button onclick="Podekovani()">Koupit</button></div>
+         				</div>
+         				
+         			</div>
+         			
+         			<div class="ozdoba">
+         				<div class="top-ozdoba">
+         					<img src="images/ozdoba.jpg" alt="Xmas-decoration">
+         				</div>
+         				<div class="bottom-ozdoba">
+         					<p class="first-p">Barva: Vánoční motiv <br> Cena: 600 Kč</p>  
+         					<div class="koupit"><button onclick="Podekovani()">Koupit</button></div>     					
+         				</div>
+         				
+         			</div>
+         		</div>
+         	</div>
+         </section>
+         
+			<section class="sponzori"> 
+				<div class="sponzori-container" id="sponsors">
+           			<h3>Partneři</h3>
+   
+						<div class="sponzor">
+         				<div class="top-spon">
+         					<img src="images/cat.png" alt="picture">
+         				</div>
+         				<div class="bottom-spon">
+         					<h4 class="first-p">Václav Kříž</h4>
+         				</div>
+         			</div>   
+         			<div class="sponzor">
+         			<div class="top-spon">
+         					<img src="images/bunny.png" alt="picture">
+         				</div>
+         				<div class="bottom-spon">
+         					<h4 class="first-p">Talia Afzaal</h4>
+         				</div>
+         			</div> 
+         			<div class="sponzor">
+         				<div class="top-spon">
+         					<img src="images/labrador.png" alt="picture">
+         				</div>
+         				<div class="bottom-spon">
+         					<h4 class="first-p">Miroslav Douda</h4>
+         				</div>
+         			</div> 
+         			<div class="sponzor">
+         				<div class="top-spon">
+         					<img src="images/bows.png" alt="picture">
+         				</div>
+         				<div class="bottom-spon">
+         					<h4 class="first-p">Anička Dolejší</h4>
+         				</div>
+         			</div>  
+         			<div class="sponzor">
+         				<div class="top-spon">
+         					<img src="images/ajeklid.jpg" alt="picture">
+         				</div>
+         				<div class="bottom-spon">
+         					<h4 class="first-p">AJEKLID s.r.o.</h4>
+         				</div>
+         			</div> 
+           		</div>
+			</section>         
+         
+         <section class="kontakt" id="contact">
+         	<div class="kontakt-container">
+         		<h3>Kontakt</h3>
+						<p style="padding-top: 15px"><img src="images/tel-icon.png" alt="phone-icon" width="25" height="25"/>+420 123 456 789</p>
+    					<p><img src="images/email-icon.png" alt="email-icon" width="30" height="30"/> tapka.n.o@email.cz</p>
+    					<p>New Street, Ústí nad Labem</p>
+				</div>
+         </section>
+        </main>        
+        
+        <footer>
+        		<div class="footer-container">
+        			<div class="footer-content">
+        				<div class="social-media">
+        					<a href="https://www.instagram.com/" target="#"><img class="icon inst" src="images/instagram.png" alt="instagram" width="60" height="60" > </a>
+        					<a href="https://www.facebook.com/" target="#"><img class="icon face" src="images/facebook.png" alt="facebook" width="60" height="60"> </a>
+        				</div>
+						<p> Created by Some Student<br> <b>&Phi;&Iota;&Sigma;</b> &diams;</p>   
+					</div>  
+				</div>
+        </footer>
+
+        
+   		<script language="JavaScript">
+            function Podekovani(){
+                var nadpis = document.getElementById("dekuji").style;
+                	  nadpis.visibility="visible";
+                    nadpis.fontSize = "50px";
+                    nadpis.marginLeft="33%";
+                    nadpis.marginTop="15%";
+                    nadpis.borderRadius="10px"
+            }
+ 
+				function winCloset(){
+					var obj = document.getElementById("dekuji").style
+						obj.visibility="hidden"
+						obj.fontSize="0px";
+						obj.padding="0px";
+						obj.marginBottom="0px";
+				 };
+			</script>	
+	</body>	
+</html>
